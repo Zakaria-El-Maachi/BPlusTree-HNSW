@@ -1,0 +1,647 @@
+Testing BPTreeDB...
+Building Time: 0.326551
+Performance Statistics:
+Total Building Time: 0.326551s
+Query Type 0:
+  Avg Time = 0.112121s
+  Max Time = 0.225045s
+  Min Time = 0.0973249s
+  Queries Per Second (QPS) = 8.91891
+  Recall = 1
+Query Type 1:
+  Avg Time = 0.0861263s
+  Max Time = 0.258238s
+  Min Time = 0.0177336s
+  Queries Per Second (QPS) = 11.6109
+  Recall = 1
+Query Type 2:
+  Avg Time = 0.147573s
+  Max Time = 0.514191s
+  Min Time = 0.000169645s
+  Queries Per Second (QPS) = 6.77631
+  Recall = 1
+Query Type 3:
+  Avg Time = 0.0453782s
+  Max Time = 0.295108s
+  Min Time = 9.5892e-05s
+  Queries Per Second (QPS) = 22.037
+  Recall = 1
+
+Global Performance Statistics:
+  Global Avg Time = 0.0980537s
+  Global Queries Per Second (QPS) = 10.1985
+  Global Recall = 1
+
+Running grid search on HnswDB...
+
+Testing HnswDB with M=16, expansionFactor=5, ef_search=200...
+Building Time: 64.9266
+Performance Statistics:
+Total Building Time: 64.9266s
+Query Type 0:
+  Avg Time = 0.00108081s
+  Max Time = 0.00514354s
+  Min Time = 0.000383429s
+  Queries Per Second (QPS) = 925.234
+  Recall = 0.989205
+Query Type 1:
+  Avg Time = 0.00241964s
+  Max Time = 0.00621708s
+  Min Time = 0.000764554s
+  Queries Per Second (QPS) = 413.285
+  Recall = 0.739836
+Query Type 2:
+  Avg Time = 0.00243858s
+  Max Time = 0.00653437s
+  Min Time = 0.000774262s
+  Queries Per Second (QPS) = 410.074
+  Recall = 0.814678
+Query Type 3:
+  Avg Time = 0.00246717s
+  Max Time = 0.00787176s
+  Min Time = 0.000707145s
+  Queries Per Second (QPS) = 405.322
+  Recall = 0.375619
+
+Global Performance Statistics:
+  Global Avg Time = 0.0020993s
+  Global Queries Per Second (QPS) = 476.348
+  Global Recall = 0.731373
+
+Testing HnswDB with M=16, expansionFactor=5, ef_search=500...
+Building Time: 67.605
+Performance Statistics:
+Total Building Time: 67.605s
+Query Type 0:
+  Avg Time = 0.00278267s
+  Max Time = 0.022017s
+  Min Time = 0.000548045s
+  Queries Per Second (QPS) = 359.366
+  Recall = 0.998398
+Query Type 1:
+  Avg Time = 0.00286243s
+  Max Time = 0.0246068s
+  Min Time = 0.000640237s
+  Queries Per Second (QPS) = 349.354
+  Recall = 0.739856
+Query Type 2:
+  Avg Time = 0.00292554s
+  Max Time = 0.0215796s
+  Min Time = 0.000587506s
+  Queries Per Second (QPS) = 341.817
+  Recall = 0.814706
+Query Type 3:
+  Avg Time = 0.00294432s
+  Max Time = 0.0205474s
+  Min Time = 0.000707633s
+  Queries Per Second (QPS) = 339.637
+  Recall = 0.375607
+
+Global Performance Statistics:
+  Global Avg Time = 0.00287849s
+  Global Queries Per Second (QPS) = 347.405
+  Global Recall = 0.733695
+
+Testing HnswDB with M=16, expansionFactor=5, ef_search=1000...
+Building Time: 67.0496
+Performance Statistics:
+Total Building Time: 67.0496s
+Query Type 0:
+  Avg Time = 0.00432119s
+  Max Time = 0.0213931s
+  Min Time = 0.000956549s
+  Queries Per Second (QPS) = 231.418
+  Recall = 0.999762
+Query Type 1:
+  Avg Time = 0.0043858s
+  Max Time = 0.0229331s
+  Min Time = 0.00106124s
+  Queries Per Second (QPS) = 228.009
+  Recall = 0.742865
+Query Type 2:
+  Avg Time = 0.00442969s
+  Max Time = 0.0172734s
+  Min Time = 0.00104797s
+  Queries Per Second (QPS) = 225.749
+  Recall = 0.817961
+Query Type 3:
+  Avg Time = 0.00446185s
+  Max Time = 0.0447901s
+  Min Time = 0.00109323s
+  Queries Per Second (QPS) = 224.122
+  Recall = 0.37665
+
+Global Performance Statistics:
+  Global Avg Time = 0.00439939s
+  Global Queries Per Second (QPS) = 227.304
+  Global Recall = 0.735866
+
+Testing HnswDB with M=16, expansionFactor=10, ef_search=200...
+Building Time: 65.2305
+Performance Statistics:
+Total Building Time: 65.2305s
+Query Type 0:
+  Avg Time = 0.00107851s
+  Max Time = 0.00490315s
+  Min Time = 0.000347252s
+  Queries Per Second (QPS) = 927.204
+  Recall = 0.989197
+Query Type 1:
+  Avg Time = 0.00440677s
+  Max Time = 0.0133483s
+  Min Time = 0.00110454s
+  Queries Per Second (QPS) = 226.923
+  Recall = 0.837764
+Query Type 2:
+  Avg Time = 0.00446408s
+  Max Time = 0.0255592s
+  Min Time = 0.00112885s
+  Queries Per Second (QPS) = 224.01
+  Recall = 0.90618
+Query Type 3:
+  Avg Time = 0.00448358s
+  Max Time = 0.0165841s
+  Min Time = 0.00118053s
+  Queries Per Second (QPS) = 223.036
+  Recall = 0.53108
+
+Global Performance Statistics:
+  Global Avg Time = 0.00360279s
+  Global Queries Per Second (QPS) = 277.563
+  Global Recall = 0.817266
+
+Testing HnswDB with M=16, expansionFactor=10, ef_search=500...
+Building Time: 65.2633
+Performance Statistics:
+Total Building Time: 65.2633s
+Query Type 0:
+  Avg Time = 0.00232103s
+  Max Time = 0.00697933s
+  Min Time = 0.00060797s
+  Queries Per Second (QPS) = 430.843
+  Recall = 0.998402
+Query Type 1:
+  Avg Time = 0.00441739s
+  Max Time = 0.0226319s
+  Min Time = 0.00114051s
+  Queries Per Second (QPS) = 226.378
+  Recall = 0.837748
+Query Type 2:
+  Avg Time = 0.0044845s
+  Max Time = 0.0440424s
+  Min Time = 0.00114303s
+  Queries Per Second (QPS) = 222.991
+  Recall = 0.906172
+Query Type 3:
+  Avg Time = 0.00449224s
+  Max Time = 0.0163003s
+  Min Time = 0.00120246s
+  Queries Per Second (QPS) = 222.606
+  Recall = 0.531068
+
+Global Performance Statistics:
+  Global Avg Time = 0.00392533s
+  Global Queries Per Second (QPS) = 254.756
+  Global Recall = 0.819573
+
+Testing HnswDB with M=16, expansionFactor=10, ef_search=1000...
+Building Time: 65.3288
+Performance Statistics:
+Total Building Time: 65.3288s
+Query Type 0:
+  Avg Time = 0.00424114s
+  Max Time = 0.033908s
+  Min Time = 0.000976943s
+  Queries Per Second (QPS) = 235.786
+  Recall = 0.999773
+Query Type 1:
+  Avg Time = 0.00446607s
+  Max Time = 0.0306603s
+  Min Time = 0.00113646s
+  Queries Per Second (QPS) = 223.911
+  Recall = 0.837772
+Query Type 2:
+  Avg Time = 0.00447938s
+  Max Time = 0.0137403s
+  Min Time = 0.0010875s
+  Queries Per Second (QPS) = 223.245
+  Recall = 0.906157
+Query Type 3:
+  Avg Time = 0.0045274s
+  Max Time = 0.0237985s
+  Min Time = 0.0011982s
+  Queries Per Second (QPS) = 220.877
+  Recall = 0.53108
+
+Global Performance Statistics:
+  Global Avg Time = 0.00442799s
+  Global Queries Per Second (QPS) = 225.836
+  Global Recall = 0.819923
+
+Testing HnswDB with M=16, expansionFactor=20, ef_search=200...
+Building Time: 65.0399
+Performance Statistics:
+Total Building Time: 65.0399s
+Query Type 0:
+  Avg Time = 0.00109693s
+  Max Time = 0.00931469s
+  Min Time = 0.000355772s
+  Queries Per Second (QPS) = 911.634
+  Recall = 0.989241
+Query Type 1:
+  Avg Time = 0.00826791s
+  Max Time = 0.0317527s
+  Min Time = 0.00339555s
+  Queries Per Second (QPS) = 120.95
+  Recall = 0.908373
+Query Type 2:
+  Avg Time = 0.0083299s
+  Max Time = 0.0233305s
+  Min Time = 0.00302609s
+  Queries Per Second (QPS) = 120.049
+  Recall = 0.953307
+Query Type 3:
+  Avg Time = 0.00837837s
+  Max Time = 0.0254577s
+  Min Time = 0.0034538s
+  Queries Per Second (QPS) = 119.355
+  Recall = 0.667654
+
+Global Performance Statistics:
+  Global Avg Time = 0.0065066s
+  Global Queries Per Second (QPS) = 153.69
+  Global Recall = 0.880519
+
+Testing HnswDB with M=16, expansionFactor=20, ef_search=500...
+Building Time: 64.5852
+Performance Statistics:
+Total Building Time: 64.5852s
+Query Type 0:
+  Avg Time = 0.00236981s
+  Max Time = 0.010029s
+  Min Time = 0.000598681s
+  Queries Per Second (QPS) = 421.975
+  Recall = 0.998386
+Query Type 1:
+  Avg Time = 0.00824509s
+  Max Time = 0.0254621s
+  Min Time = 0.00336168s
+  Queries Per Second (QPS) = 121.284
+  Recall = 0.908369
+Query Type 2:
+  Avg Time = 0.00833011s
+  Max Time = 0.0275053s
+  Min Time = 0.00302246s
+  Queries Per Second (QPS) = 120.046
+  Recall = 0.953307
+Query Type 3:
+  Avg Time = 0.00841753s
+  Max Time = 0.0482459s
+  Min Time = 0.00349752s
+  Queries Per Second (QPS) = 118.8
+  Recall = 0.667642
+
+Global Performance Statistics:
+  Global Avg Time = 0.00683089s
+  Global Queries Per Second (QPS) = 146.394
+  Global Recall = 0.882816
+
+Testing HnswDB with M=16, expansionFactor=20, ef_search=1000...
+Building Time: 64.5721
+Performance Statistics:
+Total Building Time: 64.5721s
+Query Type 0:
+  Avg Time = 0.00429781s
+  Max Time = 0.0167214s
+  Min Time = 0.000939437s
+  Queries Per Second (QPS) = 232.677
+  Recall = 0.999758
+Query Type 1:
+  Avg Time = 0.00825863s
+  Max Time = 0.0242604s
+  Min Time = 0.00349759s
+  Queries Per Second (QPS) = 121.085
+  Recall = 0.908381
+Query Type 2:
+  Avg Time = 0.00834727s
+  Max Time = 0.0273946s
+  Min Time = 0.00305019s
+  Queries Per Second (QPS) = 119.8
+  Recall = 0.953299
+Query Type 3:
+  Avg Time = 0.00846489s
+  Max Time = 0.0346822s
+  Min Time = 0.00355765s
+  Queries Per Second (QPS) = 118.135
+  Recall = 0.667646
+
+Global Performance Statistics:
+  Global Avg Time = 0.00733538s
+  Global Queries Per Second (QPS) = 136.326
+  Global Recall = 0.883163
+
+Testing HnswDB with M=32, expansionFactor=5, ef_search=200...
+Building Time: 88.3633
+Performance Statistics:
+Total Building Time: 88.3633s
+Query Type 0:
+  Avg Time = 0.00156856s
+  Max Time = 0.0032734s
+  Min Time = 0.000386782s
+  Queries Per Second (QPS) = 637.527
+  Recall = 0.996387
+Query Type 1:
+  Avg Time = 0.00341434s
+  Max Time = 0.012093s
+  Min Time = 0.00072698s
+  Queries Per Second (QPS) = 292.883
+  Recall = 0.742264
+Query Type 2:
+  Avg Time = 0.00344736s
+  Max Time = 0.00689587s
+  Min Time = 0.000784669s
+  Queries Per Second (QPS) = 290.077
+  Recall = 0.817599
+Query Type 3:
+  Avg Time = 0.00347019s
+  Max Time = 0.00653912s
+  Min Time = 0.000747863s
+  Queries Per Second (QPS) = 288.169
+  Recall = 0.3764
+
+Global Performance Statistics:
+  Global Avg Time = 0.00297205s
+  Global Queries Per Second (QPS) = 336.468
+  Global Recall = 0.734714
+
+Testing HnswDB with M=32, expansionFactor=5, ef_search=500...
+Building Time: 88.6718
+Performance Statistics:
+Total Building Time: 88.6718s
+Query Type 0:
+  Avg Time = 0.00334479s
+  Max Time = 0.0207535s
+  Min Time = 0.000693945s
+  Queries Per Second (QPS) = 298.973
+  Recall = 0.999638
+Query Type 1:
+  Avg Time = 0.00342753s
+  Max Time = 0.0124149s
+  Min Time = 0.000768326s
+  Queries Per Second (QPS) = 291.755
+  Recall = 0.742268
+Query Type 2:
+  Avg Time = 0.00345831s
+  Max Time = 0.0115893s
+  Min Time = 0.000777335s
+  Queries Per Second (QPS) = 289.158
+  Recall = 0.817595
+Query Type 3:
+  Avg Time = 0.00347706s
+  Max Time = 0.0102143s
+  Min Time = 0.000776428s
+  Queries Per Second (QPS) = 287.6
+  Recall = 0.376404
+
+Global Performance Statistics:
+  Global Avg Time = 0.0034267s
+  Global Queries Per Second (QPS) = 291.826
+  Global Recall = 0.735533
+
+Testing HnswDB with M=32, expansionFactor=5, ef_search=1000...
+Building Time: 89.1769
+Performance Statistics:
+Total Building Time: 89.1769s
+Query Type 0:
+  Avg Time = 0.00608922s
+  Max Time = 0.0212331s
+  Min Time = 0.00106229s
+  Queries Per Second (QPS) = 164.225
+  Recall = 0.99996
+Query Type 1:
+  Avg Time = 0.00611074s
+  Max Time = 0.0411183s
+  Min Time = 0.00116384s
+  Queries Per Second (QPS) = 163.646
+  Recall = 0.743381
+Query Type 2:
+  Avg Time = 0.00621496s
+  Max Time = 0.0245807s
+  Min Time = 0.00109609s
+  Queries Per Second (QPS) = 160.902
+  Recall = 0.818641
+Query Type 3:
+  Avg Time = 0.00624261s
+  Max Time = 0.0266198s
+  Min Time = 0.00118528s
+  Queries Per Second (QPS) = 160.189
+  Recall = 0.376691
+
+Global Performance Statistics:
+  Global Avg Time = 0.00616415s
+  Global Queries Per Second (QPS) = 162.228
+  Global Recall = 0.736226
+
+Testing HnswDB with M=32, expansionFactor=10, ef_search=200...
+Building Time: 88.4623
+Performance Statistics:
+Total Building Time: 88.4623s
+Query Type 0:
+  Avg Time = 0.0015729s
+  Max Time = 0.00634154s
+  Min Time = 0.000373792s
+  Queries Per Second (QPS) = 635.767
+  Recall = 0.996415
+Query Type 1:
+  Avg Time = 0.00615698s
+  Max Time = 0.0254642s
+  Min Time = 0.00123829s
+  Queries Per Second (QPS) = 162.417
+  Recall = 0.838818
+Query Type 2:
+  Avg Time = 0.00621724s
+  Max Time = 0.0582827s
+  Min Time = 0.00117809s
+  Queries Per Second (QPS) = 160.843
+  Recall = 0.907345
+Query Type 3:
+  Avg Time = 0.00626458s
+  Max Time = 0.01888s
+  Min Time = 0.00127035s
+  Queries Per Second (QPS) = 159.628
+  Recall = 0.532201
+
+Global Performance Statistics:
+  Global Avg Time = 0.00504539s
+  Global Queries Per Second (QPS) = 198.201
+  Global Recall = 0.819915
+
+Testing HnswDB with M=32, expansionFactor=10, ef_search=500...
+Building Time: 88.9902
+Performance Statistics:
+Total Building Time: 88.9902s
+Query Type 0:
+  Avg Time = 0.00334547s
+  Max Time = 0.0126496s
+  Min Time = 0.000651621s
+  Queries Per Second (QPS) = 298.912
+  Recall = 0.999626
+Query Type 1:
+  Avg Time = 0.00614568s
+  Max Time = 0.0230302s
+  Min Time = 0.00123172s
+  Queries Per Second (QPS) = 162.716
+  Recall = 0.838826
+Query Type 2:
+  Avg Time = 0.00622379s
+  Max Time = 0.0260734s
+  Min Time = 0.00118989s
+  Queries Per Second (QPS) = 160.674
+  Recall = 0.907345
+Query Type 3:
+  Avg Time = 0.00628155s
+  Max Time = 0.0606689s
+  Min Time = 0.00131742s
+  Queries Per Second (QPS) = 159.196
+  Recall = 0.532197
+
+Global Performance Statistics:
+  Global Avg Time = 0.00549438s
+  Global Queries Per Second (QPS) = 182.004
+  Global Recall = 0.820724
+
+Testing HnswDB with M=32, expansionFactor=10, ef_search=1000...
+Building Time: 89.0967
+Performance Statistics:
+Total Building Time: 89.0967s
+Query Type 0:
+  Avg Time = 0.00599996s
+  Max Time = 0.0202794s
+  Min Time = 0.00104881s
+  Queries Per Second (QPS) = 166.668
+  Recall = 0.999956
+Query Type 1:
+  Avg Time = 0.00624068s
+  Max Time = 0.036398s
+  Min Time = 0.00125407s
+  Queries Per Second (QPS) = 160.239
+  Recall = 0.838818
+Query Type 2:
+  Avg Time = 0.00625305s
+  Max Time = 0.0382766s
+  Min Time = 0.00117145s
+  Queries Per Second (QPS) = 159.922
+  Recall = 0.907329
+Query Type 3:
+  Avg Time = 0.00628326s
+  Max Time = 0.0200927s
+  Min Time = 0.0012899s
+  Queries Per Second (QPS) = 159.153
+  Recall = 0.532189
+
+Global Performance Statistics:
+  Global Avg Time = 0.00619376s
+  Global Queries Per Second (QPS) = 161.453
+  Global Recall = 0.820799
+
+Testing HnswDB with M=32, expansionFactor=20, ef_search=200...
+Building Time: 88.394
+Performance Statistics:
+Total Building Time: 88.394s
+Query Type 0:
+  Avg Time = 0.00159703s
+  Max Time = 0.0187846s
+  Min Time = 0.000353747s
+  Queries Per Second (QPS) = 626.161
+  Recall = 0.996399
+Query Type 1:
+  Avg Time = 0.0113269s
+  Max Time = 0.0383887s
+  Min Time = 0.00378017s
+  Queries Per Second (QPS) = 88.2851
+  Recall = 0.908918
+Query Type 2:
+  Avg Time = 0.0113811s
+  Max Time = 0.0531664s
+  Min Time = 0.00347503s
+  Queries Per Second (QPS) = 87.8653
+  Recall = 0.953851
+Query Type 3:
+  Avg Time = 0.0115571s
+  Max Time = 0.072525s
+  Min Time = 0.00370837s
+  Queries Per Second (QPS) = 86.5272
+  Recall = 0.668592
+
+Global Performance Statistics:
+  Global Avg Time = 0.0089494s
+  Global Queries Per Second (QPS) = 111.739
+  Global Recall = 0.882825
+
+Testing HnswDB with M=32, expansionFactor=20, ef_search=500...
+Building Time: 88.4597
+Performance Statistics:
+Total Building Time: 88.4597s
+Query Type 0:
+  Avg Time = 0.00340651s
+  Max Time = 0.0127883s
+  Min Time = 0.000657407s
+  Queries Per Second (QPS) = 293.555
+  Recall = 0.999634
+Query Type 1:
+  Avg Time = 0.0113406s
+  Max Time = 0.0426163s
+  Min Time = 0.00396302s
+  Queries Per Second (QPS) = 88.1786
+  Recall = 0.908914
+Query Type 2:
+  Avg Time = 0.0115228s
+  Max Time = 0.0365202s
+  Min Time = 0.00354133s
+  Queries Per Second (QPS) = 86.7843
+  Recall = 0.953855
+Query Type 3:
+  Avg Time = 0.0116313s
+  Max Time = 0.0374665s
+  Min Time = 0.00410082s
+  Queries Per Second (QPS) = 85.9752
+  Recall = 0.668596
+
+Global Performance Statistics:
+  Global Avg Time = 0.00946209s
+  Global Queries Per Second (QPS) = 105.685
+  Global Recall = 0.88364
+
+Testing HnswDB with M=32, expansionFactor=20, ef_search=1000...
+Building Time: 88.5243
+Performance Statistics:
+Total Building Time: 88.5243s
+Query Type 0:
+  Avg Time = 0.00608458s
+  Max Time = 0.024002s
+  Min Time = 0.00108728s
+  Queries Per Second (QPS) = 164.35
+  Recall = 0.999956
+Query Type 1:
+  Avg Time = 0.0114467s
+  Max Time = 0.0425377s
+  Min Time = 0.00381043s
+  Queries Per Second (QPS) = 87.3617
+  Recall = 0.908922
+Query Type 2:
+  Avg Time = 0.0114844s
+  Max Time = 0.0437719s
+  Min Time = 0.00362612s
+  Queries Per Second (QPS) = 87.0747
+  Recall = 0.953851
+Query Type 3:
+  Avg Time = 0.0115707s
+  Max Time = 0.0351205s
+  Min Time = 0.00387s
+  Queries Per Second (QPS) = 86.425
+  Recall = 0.668604
+
+Global Performance Statistics:
+  Global Avg Time = 0.0101377s
+  Global Queries Per Second (QPS) = 98.6415
+  Global Recall = 0.883724

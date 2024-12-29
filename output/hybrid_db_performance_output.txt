@@ -1,0 +1,102 @@
+
+Running grid search on HybridDB...
+Building Time: 66.9151
+
+Testing HybridDB with alpha=0.5
+Performance Statistics:
+Total Building Time: 66.9151s
+Query Type 0:
+  Avg Time = 0.00220869s
+  Max Time = 0.0280861s
+  Min Time = 0.00053715s
+  Queries Per Second (QPS) = 452.758
+  Recall = 0.998378
+Query Type 1:
+  Avg Time = 0.00415268s
+  Max Time = 0.0191244s
+  Min Time = 0.000985391s
+  Queries Per Second (QPS) = 240.808
+  Recall = 0.837756
+Query Type 2:
+  Avg Time = 0.0744271s
+  Max Time = 0.346582s
+  Min Time = 0.000165804s
+  Queries Per Second (QPS) = 13.436
+  Recall = 0.999849
+Query Type 3:
+  Avg Time = 0.0241534s
+  Max Time = 0.173452s
+  Min Time = 0.000109092s
+  Queries Per Second (QPS) = 41.4021
+  Recall = 0.939288
+
+Global Performance Statistics:
+  Global Avg Time = 0.0262888s
+  Global Queries Per Second (QPS) = 38.039
+  Global Recall = 0.94405
+
+Testing HybridDB with alpha=0.4
+Performance Statistics:
+Total Building Time: 66.9151s
+Query Type 0:
+  Avg Time = 0.00215654s
+  Max Time = 0.0125946s
+  Min Time = 0.000551746s
+  Queries Per Second (QPS) = 463.706
+  Recall = 0.998378
+Query Type 1:
+  Avg Time = 0.00404964s
+  Max Time = 0.0149286s
+  Min Time = 0.0010398s
+  Queries Per Second (QPS) = 246.936
+  Recall = 0.837756
+Query Type 2:
+  Avg Time = 0.053801s
+  Max Time = 0.283006s
+  Min Time = 0.000164127s
+  Queries Per Second (QPS) = 18.587
+  Recall = 0.999754
+Query Type 3:
+  Avg Time = 0.0171182s
+  Max Time = 0.13244s
+  Min Time = 0.000108184s
+  Queries Per Second (QPS) = 58.4173
+  Recall = 0.909583
+
+Global Performance Statistics:
+  Global Avg Time = 0.0193213s
+  Global Queries Per Second (QPS) = 51.7563
+  Global Recall = 0.936683
+
+Testing HybridDB with alpha=0.3
+Performance Statistics:
+Total Building Time: 66.9151s
+Query Type 0:
+  Avg Time = 0.00225838s
+  Max Time = 0.014165s
+  Min Time = 0.000554191s
+  Queries Per Second (QPS) = 442.795
+  Recall = 0.998378
+Query Type 1:
+  Avg Time = 0.00425573s
+  Max Time = 0.0273022s
+  Min Time = 0.00104427s
+  Queries Per Second (QPS) = 234.977
+  Recall = 0.837756
+Query Type 2:
+  Avg Time = 0.0360881s
+  Max Time = 0.256502s
+  Min Time = 0.000167269s
+  Queries Per Second (QPS) = 27.71
+  Recall = 0.999551
+Query Type 3:
+  Avg Time = 0.0131532s
+  Max Time = 0.107323s
+  Min Time = 0.00011433s
+  Queries Per Second (QPS) = 76.0271
+  Recall = 0.871699
+
+Global Performance Statistics:
+  Global Avg Time = 0.0139617s
+  Global Queries Per Second (QPS) = 71.6246
+  Global Recall = 0.927267
